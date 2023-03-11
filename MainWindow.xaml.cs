@@ -72,7 +72,7 @@ namespace Lecture_Example___Images_and_Enumerable
                 InstagramPost instaPost = new InstagramPost(header, body, FilePath, photoFilter);
                 posts.Add(instaPost);
 
-                //no appending, only display the lastest updateted information
+                //no appending, only display the lastest updateted information that was entered
                 flDocument.Blocks.Clear();
                 int i = posts.Count;
                 flDocument.Blocks.Add(posts[i - 1].InstaPostFormatted());
