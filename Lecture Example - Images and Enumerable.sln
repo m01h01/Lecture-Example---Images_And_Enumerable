@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture Example - Images and Enumerable", "Lecture Example - Images and Enumerable.csproj", "{B40A384A-02B5-49F1-AE2D-39D7277C80BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B40A384A-02B5-49F1-AE2D-39D7277C80BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40A384A-02B5-49F1-AE2D-39D7277C80BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40A384A-02B5-49F1-AE2D-39D7277C80BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40A384A-02B5-49F1-AE2D-39D7277C80BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0482EFED-E14F-4CB6-B6A3-F1A5BE28F49C}
+	EndGlobalSection
+EndGlobal

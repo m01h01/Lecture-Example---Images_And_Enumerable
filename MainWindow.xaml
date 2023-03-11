@@ -1,0 +1,25 @@
+﻿<Window x:Class="Lecture_Example___Images_and_Enumerable.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lecture_Example___Images_and_Enumerable"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas Background="#FFD3CFAB">
+        <Canvas Height="393" Width="306" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#FF666F47" Canvas.Left="10" Canvas.Top="10">
+            <Label Content="Header" Canvas.Left="10" Canvas.Top="10"/>
+            <TextBox x:Name="tbHeader" Canvas.Left="10" TextWrapping="Wrap" Text="" Canvas.Top="41" Width="286" HorizontalAlignment="Center" VerticalAlignment="Top" Height="26"/>
+            <Label Content="Body" Canvas.Left="10" Canvas.Top="63" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbBody" Canvas.Left="10" TextWrapping="Wrap" Text="" Canvas.Top="94" Width="282" HorizontalAlignment="Left" VerticalAlignment="Top" Height="147"/>
+            <TextBox x:Name="tbImage" Canvas.Left="8" TextWrapping="NoWrap" Text="" Canvas.Top="251" Width="165" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button x:Name="btnGetImage" Content="Image" Canvas.Left="191" Canvas.Top="246" HorizontalAlignment="Left" VerticalAlignment="Top" Height="34" Width="101" Click="btnGetImage_Click"/>
+            <ComboBox x:Name="cbColor" Canvas.Left="8" Canvas.Top="294" Width="284" Height="36" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Button x:Name="btnMakePost" Content="Make Post" Canvas.Left="45" Canvas.Top="344" Height="40" Width="210" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnMakePost_Click"/>
+        </Canvas>
+        <Image x:Name="ImagePost" Height="274" Canvas.Left="338" Canvas.Top="9" Width="433" HorizontalAlignment="Left" VerticalAlignment="Top" OpacityMask="Black"/>
+        <RichTextBox x:Name="rtbDisplay" Height="124" Width="436" Canvas.Left="338" Canvas.Top="279" HorizontalAlignment="Center" VerticalAlignment="Top">
+        </RichTextBox>
+
+    </Canvas>
+</Window>
